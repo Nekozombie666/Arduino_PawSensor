@@ -1,8 +1,5 @@
-#include <MsTimer2.h>
-
 /*
- * 
-****PINOUT****
+--- Wiring ---
  PAW    Arduino
   1 ----- GND
   2 ----- A0
@@ -10,8 +7,11 @@
   4 ----- D2
   5 ----- D3
   6 ----- 3.3V
- *
 */
+
+
+#include <MsTimer2.h>
+//For PawSensor control
 
 int paw1, paw2, paw3, paw4; // 実値
 long int avg_paw1, avg_paw2, avg_paw3, avg_paw4; // 平均値
